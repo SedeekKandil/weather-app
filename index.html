@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    </head>
+    <body style="background-color:#1e202b;">
+        <nav class="py-5">
+            <div class="container  d-flex justify-content-center align-items-center justify-content-between ">
+                    <a href="" class="logo text-decoration-none d-flex justify-content-center align-items-center gap-3">
+                        <img src="logo.png" alt="" class="w-25">
+                        <div class="logo-type">
+                        <h1 class="my-font text-white">Weather</h1>
+                        <h3 class="my-font2 text-white">tagline goes here</h3>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <ul class="links " id="links">
+                    <li class="d-flex justify-content-center align-items-center gap-5 ">
+                    <a href="#home" class="text-decoration-none text-white">Home</a>
+                    <a href="#news" class="text-decoration-none text-white">News</a>
+                    <a href="#Live-cameras" class="text-decoration-none text-white">Live cameras</a>
+                    <a href="#photos" class="text-decoration-none text-white">Photos</a>
+                    <a href="#contact" class="text-decoration-none text-white">Contact</a>
+
+                </li>
+            </ul>
+            <div class="shape">
+                <label for="mode" class="dark">
+                    <i class="fa-solid fa-moon"></i>
+                </label>
+                
+            </div>
+        </div>
+</nav>
+<div class="hero" data-bg-image="images/banner.png" >
+    <div class="container">
+        <form class="find-location my-4">
+            <input type="text" placeholder="Find your location..." id="search">
+            <input type="button" value="Find" id="submit">
+        </form>
+
+    </div>
+</div>
+
+<div class="forecast-table">
+    <div class="container">
+        <div class="forecast-container" id="forecast"><div class="today forecast">
+<div class="forecast-header" id="today">
+<div class="day text-white">Tuesday</div>
+<div class="text-white date">2January</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content" id="current">
+<div class="location text-white">Cairo</div>
+<div class="degree d-flex justify-content-center align-items-center">
+<div class="num">20<sup>o</sup>C</div>
+
+<div class="forecast-icon">
+<img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" alt="" width="90">
+</div>	
+
+</div>
+<div class="custom">Partly cloudy</div>
+<span class="text-white"><img src="pics/icon-umberella.png" alt="">20%</span>
+                    <span class="text-white"><img src="pics/icon-wind.png" alt="">18km/h</span>
+                    <span class="text-white"><img src="pics/icon-compass.png" alt="">East</span>
+</div>
+</div>	<div class="forecast">
+<div class="forecast-header">
+<div class="day">Wednesday</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content">
+<div class="forecast-icon">
+    <img src="https://cdn.weatherapi.com/weather/64x64/day/122.png" alt="" width="48">
+</div>
+<div class="degree">20.5<sup>o</sup>C</div>
+<small>14.3<sup>o</sup></small>
+<div class="custom">Overcast</div>
+</div>
+</div>	<div class="forecast">
+<div class="forecast-header">
+<div class="day">Thursday</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content">
+<div class="forecast-icon">
+    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+</div>
+<div class="degree">21.3<sup>o</sup>C</div>
+<small>13.7<sup>o</sup></small>
+<div class="custom">Sunny</div>
+</div>
+</div></div>
+    </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form action="#" class="subscribe-form position-relative">
+                    <input type="text"  placeholder="Enter your email to subscribe...">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div class="col-md-3 col-md-offset-1">
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+</footer>
+        
+
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
